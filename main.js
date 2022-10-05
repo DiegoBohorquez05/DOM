@@ -12,10 +12,6 @@ let boton = document.getElementById('agregar').addEventListener('click', () => {
         `<div id="tarjeta"><p>Tarjeta N°:${contador} </p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget pulvinar ipsum, in sollicitudin ligula. Etiam et turpis quis odio pretium sodales.<br> <button onclick="eliminar(this)" id="borrar">Borrar</button></div>`
 
     })
-    
-    // let borrar = document.getElementById('borrar').addEventListener('click', (valor) => {
-    //     valor
-    // })
 
     function eliminar(e){
         e.parentNode.parentNode.removeChild(e.parentNode)
